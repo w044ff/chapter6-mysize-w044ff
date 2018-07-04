@@ -45,7 +45,7 @@ class HeightActivity : AppCompatActivity() {
                     override fun onStopTrackingTouch(seekBar: SeekBar?) {}
                     }
         )
-        radioGroup.setOnCheckedChangeListener{
+        radioGroup.setOnCheckedChangeListener{//
             group, checkedId ->
                 height.text = findViewById<RadioButton>(checkedId).text
         }
